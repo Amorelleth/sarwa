@@ -1,0 +1,22 @@
+.statistics {
+  display: grid;
+  row-gap: 16px;
+}
+
+.item {
+  display: grid;
+  row-gap: 4px;
+}
+
+.status {
+  margin: 0;
+}
+
+.status::first-letter {
+ text-transform: capitalize;
+}
+
+.info {
+ display: flex;
+ column-gap: 16px;
+}

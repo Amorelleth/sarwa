@@ -1,0 +1,32 @@
+.table {
+  display: grid;
+  row-gap: 8px;
+  box-shadow: 0 0 24px #999;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+.row {
+  display: grid;
+  column-gap: 16px;
+  padding: 4px 16px;
+  grid-template-columns: max-content auto auto;
+}
+
+.row:hover:not(.disabled) {
+  background-color: #d4d4d4;
+  cursor: pointer;
+}
+
+.th {
+  margin: 0;
+}
+
+.id {
+  text-align: center;
+}
+
+.balance {
+  display: grid;
+  justify-content: end;
+}

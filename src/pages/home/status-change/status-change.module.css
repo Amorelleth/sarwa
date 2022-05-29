@@ -1,0 +1,41 @@
+.modal {
+  min-width: 200px;
+  max-width: 30vw;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  row-gap: 16px;
+  display: grid;
+}
+
+.title {
+  margin: 0 16px 0 0;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 8px;
+}
+
+.save {
+  background-color: aquamarine;
+}
+
+.cancel {
+  background-color: #d4d4d4;
+}
+
+.save,
+.cancel {
+  cursor: pointer;
+  display: grid;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.save:hover,
+.cancel:hover {
+  opacity: 0.8;
+}

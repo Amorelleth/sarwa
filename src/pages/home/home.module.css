@@ -1,0 +1,14 @@
+.main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10vh 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: grid;
+  width: 60vw;
+  row-gap: 32px;
+  color: #333;
+}
